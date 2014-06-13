@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="StringCalculator.cs" />
     <Compile Include="NegativesNotAllowedException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

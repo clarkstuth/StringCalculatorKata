@@ -5,12 +5,12 @@ using StringCalculatorKata;
 namespace StringCalculatorKataTest
 {
     [TestClass]
-    public class CalculatorTest
+    public class StringCalculatorTest
     {
 
         public void RunAdd(int expected, string numbers = null)
         {
-            var calc = new Calculator();
+            var calc = new StringCalculator();
             Assert.AreEqual(expected, calc.Add(numbers));
         }
 
