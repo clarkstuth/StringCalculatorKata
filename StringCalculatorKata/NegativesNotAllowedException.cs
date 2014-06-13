@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace StringCalculatorKata
 {
-    public class Class1
+    public class NegativesNotAllowedException : Exception
     {
+        public NegativesNotAllowedException(string message) : base(message)
+        {
+            
+        }
     }
 }
